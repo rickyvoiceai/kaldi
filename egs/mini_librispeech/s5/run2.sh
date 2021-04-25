@@ -142,6 +142,7 @@ if [ $stage -le 9 ]; then
 ./local/chain/tuning/run_cnn_tdnn_1f.sh # cnn tdnn lstm, spectrum augmentation, online cmvn
 ./local/chain/tuning/run_cnn_tdnn_1g.sh # cnn tdnnf, attention, multiple stream, spectrum augmentation, online cmvn
 ./local/chain/tuning/run_cnn_tdnn_1h.sh # cnn tdnnf, attention, multiple stream, spectrum augmentation
+./local/chain/tuning/run_cnn_tdnn_1j.sh # cnn tdnnf, attention, multiple stream, spectrum augmentation, bigger model
 fi
 
 # grep WER exp/chain/cnn_tdnn1a_sp/decode_tgsmall_dev_clean_2/wer_* | ./utils/best_wer.sh 
@@ -181,4 +182,14 @@ fi
 # %WER 7.18 [ 1446 / 20138, 156 ins, 167 del, 1123 sub ] exp/chain/cnn_tdnn1h_sp/decode_tglarge_dev_clean_2/wer_11_1.0
 # %WER 10.32 [ 2079 / 20138, 251 ins, 190 del, 1638 sub ] exp/chain/cnn_tdnn1h_sp_online/decode_tgsmall_dev_clean_2/wer_10_0.0
 # %WER 7.20 [ 1450 / 20138, 153 ins, 168 del, 1129 sub ] exp/chain/cnn_tdnn1h_sp_online/decode_tglarge_dev_clean_2/wer_11_1.0
+
+# %WER 10.04 [ 2022 / 20138, 219 ins, 229 del, 1574 sub ] exp/chain/cnn_tdnn1i_sp/decode_tgsmall_dev_clean_2/wer_11_0.0
+# %WER 6.93 [ 1396 / 20138, 154 ins, 155 del, 1087 sub ] exp/chain/cnn_tdnn1i_sp/decode_tglarge_dev_clean_2/wer_11_1.0
+# %WER 10.02 [ 2018 / 20138, 222 ins, 225 del, 1571 sub ] exp/chain/cnn_tdnn1i_sp_online/decode_tgsmall_dev_clean_2/wer_11_0.0
+# %WER 6.91 [ 1391 / 20138, 151 ins, 151 del, 1089 sub ] exp/chain/cnn_tdnn1i_sp_online/decode_tglarge_dev_clean_2/wer_11_1.0
+
+# %WER 9.81 [ 1975 / 20138, 223 ins, 205 del, 1547 sub ] exp/chain/cnn_tdnn1j_sp/decode_tgsmall_dev_clean_2/wer_11_0.0
+# %WER 6.84 [ 1378 / 20138, 186 ins, 118 del, 1074 sub ] exp/chain/cnn_tdnn1j_sp/decode_tglarge_dev_clean_2/wer_11_0.5
+# %WER 9.83 [ 1980 / 20138, 225 ins, 201 del, 1554 sub ] exp/chain/cnn_tdnn1j_sp_online/decode_tgsmall_dev_clean_2/wer_11_0.0
+# %WER 6.87 [ 1383 / 20138, 186 ins, 117 del, 1080 sub ] exp/chain/cnn_tdnn1j_sp_online/decode_tglarge_dev_clean_2/wer_11_0.5
 
