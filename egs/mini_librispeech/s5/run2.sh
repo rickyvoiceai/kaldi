@@ -183,6 +183,11 @@ fi
 # %WER 10.32 [ 2079 / 20138, 251 ins, 190 del, 1638 sub ] exp/chain/cnn_tdnn1h_sp_online/decode_tgsmall_dev_clean_2/wer_10_0.0
 # %WER 7.20 [ 1450 / 20138, 153 ins, 168 del, 1129 sub ] exp/chain/cnn_tdnn1h_sp_online/decode_tglarge_dev_clean_2/wer_11_1.0
 
+# %WER 9.63 [ 1940 / 20138, 214 ins, 212 del, 1514 sub ] exp/chain/cnn_tdnn1i_sp/decode_tgsmall_dev_clean_2/wer_11_0.0
+# %WER 6.79 [ 1368 / 20138, 143 ins, 154 del, 1071 sub ] exp/chain/cnn_tdnn1i_sp/decode_tglarge_dev_clean_2/wer_11_1.0
+# %WER 9.63 [ 1940 / 20138, 214 ins, 210 del, 1516 sub ] exp/chain/cnn_tdnn1i_sp_online/decode_tgsmall_dev_clean_2/wer_11_0.0
+# %WER 6.78 [ 1366 / 20138, 146 ins, 157 del, 1063 sub ] exp/chain/cnn_tdnn1i_sp_online/decode_tglarge_dev_clean_2/wer_11_1.0
+
 # %WER 9.81 [ 1975 / 20138, 223 ins, 205 del, 1547 sub ] exp/chain/cnn_tdnn1j_sp/decode_tgsmall_dev_clean_2/wer_11_0.0
 # %WER 6.84 [ 1378 / 20138, 186 ins, 118 del, 1074 sub ] exp/chain/cnn_tdnn1j_sp/decode_tglarge_dev_clean_2/wer_11_0.5
 # %WER 9.83 [ 1980 / 20138, 225 ins, 201 del, 1554 sub ] exp/chain/cnn_tdnn1j_sp_online/decode_tgsmall_dev_clean_2/wer_11_0.0
